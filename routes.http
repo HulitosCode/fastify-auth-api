@@ -1,0 +1,24 @@
+POST http://localhost:8000/users
+Content-Type: application/json
+
+{
+    "name": "test",
+    "email": "test22@gmail.com",
+    "password": "test"
+}
+
+###
+
+POST http://localhost:8000/login
+Content-Type: application/json
+
+{
+    "email": "test22@gmail.com",
+    "password": "test"
+}
+
+###
+
+GET http://localhost:8000/courses
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3NDE3NzgxMjAsImV4cCI6MzQ4MzU1OTg0MCwic3ViIjoiODViZDY1YzYtNTU4Ny00M2QzLTk3ZWYtYjE4MzM4OWUxODBlIn0.ibkjq4BWKZ-ymw8r7BQL7EqctDg2vqTWGz-jCUCW9Xk.eyJpYXQiOjE3NDE3NzgwNzAsImV4cCI6MzQ4MzU1OTc0MCwic3ViIjoiYmY0YmQ4ODEtM2E3Ny00YTk5LWIxMTYtYWZmMWVjNjkwMTQyIn0.NGJV7ItEiEcsE8BNNJ8MUpO8GnrWvOeQeAoiJNYFR-k.eyJpYXQiOjE3NDE3NzY4NzIsImV4cCI6MTc0MTg2MzI3Miwic3ViIjoiYmY0YmQ4ODEtM2E3Ny00YTk5LWIxMTYtYWZmMWVjNjkwMTQyIn0.d-YL2TTX1Td2fz-aFevCaUtpSD_9MbKnuTHLpOmPpCE.eyJpYXQiOjE3NDE3NzY2NDgsImV4cCI6MTc0MTg2MzA0OCwic3ViIjoiYmY0YmQ4ODEtM2E3Ny00YTk5LWIxMTYtYWZmMWVjNjkwMTQyIn0.tePC8I3KI_wTMWXJiSWESs8Sy4gTfa1Zbr0I0y3bMWM.eyJpYXQiOjE3NDE3NzYyNTksImV4cCI6MTc0MTg2MjY1OSwic3ViIjoiYmY0YmQ4ODEtM2E3Ny00YTk5LWIxMTYtYWZmMWVjNjkwMTQyIn0.FWcymDD4niJjyb0RknZ5dDJ0_9lXQX5aavFkEeIQqus.eyJpYXQiOjE3NDE3NzU1NTgsImV4cCI6MTc0MTg2MTk1OCwic3ViIjoiYmY0YmQ4ODEtM2E3Ny00YTk5LWIxMTYtYWZmMWVjNjkwMTQyIn0.1hfRbKjcsp-OXjQ6xlhSBS1cpUXHNfyDw6U0Btk3Dn8
+

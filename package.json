@@ -1,0 +1,28 @@
+{
+  "name": "solidapi",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun run server.ts --watch",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/bun": "latest",
+    "prettier": "3.5.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.5.0",
+    "@types/jsonwebtoken": "^9.0.9",
+    "bcrypt": "^5.1.1",
+    "dayjs": "^1.11.13",
+    "fastify": "^5.2.1",
+    "install": "^0.13.0",
+    "jsonwebtoken": "^9.0.2",
+    "prisma": "^6.5.0"
+  }
+}
